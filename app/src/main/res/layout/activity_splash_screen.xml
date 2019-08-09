@@ -1,30 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#273DA7"
     tools:context=".SplashScreen">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:text="MAD 3125 MidTerm"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:id="@+id/satellites"
-        android:layout_marginTop="150dp"/>
 
     <TextView
+        android:id="@+id/satellites"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:text="Ashish : C0754254"
-        android:id="@+id/name"
-        android:layout_below="@+id/satellites"
-        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="272dp"
         android:gravity="center"
-        />
+        android:text="MAD 3125 MidTerm"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@+id/satellites"
+        android:layout_marginTop="248dp"
+        android:gravity="center"
+        android:text="Ashish Pratheesh: C0754254"
+        android:textColor="#F5EFEF"
+        android:textSize="20sp" />
 
 </RelativeLayout>

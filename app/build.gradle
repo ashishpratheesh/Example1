@@ -27,6 +27,16 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    //Volley
+    implementation 'com.android.volley:volley:1.1.1'
+    //cardView
+    implementation 'androidx.cardview:cardview:1.0.0'
+    //Glide
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+    //Picasso
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
 
 
 }
